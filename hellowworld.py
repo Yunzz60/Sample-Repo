@@ -13,6 +13,8 @@ def greet(who_to_greet):
     return greeting
 
 
+print(greet("Matt"))
+
 r = requests.get("https://www.berkeley.edu")
 print(r.status_code)
 
